@@ -1,28 +1,25 @@
 
 # Cloud Native Resource Monitoring App
 
-<p2>This is a Simple DevOps project<p2/>
+This project focuses on creating a simple DevOps application using Python, Flask, and psutil to monitor system resources. The deployment is orchestrated using Kubernetes.
 
-In this project we are creating an python app using flask and psutil to monitor the system resources and deploying it on Kubernetes
+## Steps to Create and Deploy the Monitoring App: 
+### 1. Creating a Python Monitoring App:
+A Python app is developed using Flask and psutil to monitor system resources. The application provides a straightforward interface to track essential metrics.
+
+### 2. Dockerizing the App:
+A Dockerfile is written to containerize the Python monitoring app. A Docker image is built, and Docker containers are run to ensure consistency across different environments.
+
+### 3. ECR Repository Creation and Image Push:
+Using Python boto3, an Amazon Elastic Container Registry (ECR) repository is created. The Docker image of the monitoring app is pushed to this repository, making it accessible for deployment.
+
+### 4. AWS EKS Cluster Setup:
+An Amazon EKS cluster is established, and a node group is configured to manage the computing resources. This sets the stage for deploying and scaling the monitoring app seamlessly.<br>
+
+### 5. Deploying the Monitoring App on Kubernetes:
+The Docker image from the ECR repository is deployed onto the AWS EKS cluster. Kubernetes orchestrates the deployment, ensuring scalability, reliability, and efficient resource utilization.
 
 
-
-
-<br>
-
-
-
-## Steps to create this project
-
-Creating an monitoring app in python using flask and psutil
-
-Writing an Dockerfile and building an Docker image and Running Docker Containers
-
-creating an ECR repository using python boto3 and pushing the Docker image to ECR
-
-Creating and AWS EKS Clusters and node group then deploying the monitoring app
-
-<br>
 
 ## Creating an python monitoring app using flask and psutil
 
