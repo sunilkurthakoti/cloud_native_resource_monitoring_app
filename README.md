@@ -37,9 +37,7 @@ The Docker image from the ECR repository is deployed onto the AWS EKS cluster. K
 
 ![Screenshot (163)](https://github.com/sunilkurthakoti/cloud_native_resource_monitoring_app/assets/131526336/8310e063-cf57-456e-bf42-2ab7a843634b)
 
-<br>
 
-## Feedback
 
-If you have any feedback, please reach out to us at sunilkurthakoti06@gmail.com
+
 
